@@ -2,10 +2,64 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="style.css">
-        <title>My Website</title>
+        <title>Jesse's Phase 0 Wesbite</title>
       </head> 
       <body>
-        <h1>Hello World!</h1>
+        <div id="header">
+            <div class="container">
+                <p id="logo"><strong>JN</strong></p>
+                <a id="header-title" href="./index.html">Jesse Nelson - Student Software Engineer</a>
+                
+         </div>
+        </div>
+        <div id="content">
+            <div class ="contentWrap">
+                <div class="message">
+                    <h2>Welcome!</h2>
+                    <p>This is my phase 0 wesbite <strong> built from the ground up!</strong></p>
+                    <p>I have included the HTML, CSS, and JavaScript skill learned over the course of the Software Engineering prework lessons to develop this webpage.</p>
+                </div>
+            </div>
+            <div class ="contentWrap">
+                <div class="message">
+                    <h2>JavaScript Applications</h2>
+                    <ol>
+                        <li>Color Box</li>
+                            <ul>
+                                <li><i>Change the box to a random color!</i></li>
+                            </ul>
+                        <li>Magic Eight Ball</li>
+                            <ul>
+                                <li><i>Ask it any Yes or No question!</i></li>
+                            </ul>
+                    </ol>            
+                </div>
+            </div>
+            <div class ="contentWrap">
+                <div id="colorGame">
+                    <input type="button" id="btn1" onclick="chnageA()" value="Click Me To Change Colors!" />
+                </div>
+            </div>
+            <div class ="contentWrap">
+                <div id="eightBall">
+                    <input type="button" id="btn2" onclick="changeB()" value="Ask the Magic Eight Ball Anything!" font-size=20px/>
+                </div>
+            </div>
+            <div id="footer">
+                <div class="container1">
+                    <div id="leftSide">
+                        <div id="footer-email">
+                            <p><a href="mailto:naysayersmedia@gmail.com">Email</a><p>
+                        </div>
+                    </div>
+                    <div id = "rightSide">
+                        <div id = "thankYou">
+                            <h3>Thank you for visiting me!</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="script.js"></script> 
       </body> 
 </html> 

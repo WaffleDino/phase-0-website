@@ -1,3 +1,156 @@
 body {
-    background: blue;
-  } 
+color: #373535;
+margin:0;
+} 
+
+#header {
+    background-color:cornflowerblue;
+    height: 150px;
+    line-height: 150px;
+}
+
+#logo {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 40px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    background: rgb(0, 204, 255);
+    color: rgb(0, 0, 0);
+    top: 100px;
+    left: 200px;
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0px;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+#header a:hover {
+    color:black
+}
+
+#header-title {
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+  
+#header-nav li {
+    display: inline;
+    padding-left: 10px;
+}
+
+#content {
+    font-size: 20px;
+}
+
+#content h2 {
+    font-size: 30px;  
+}
+
+.message {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5px 0;
+    text-justify: left;
+    
+}
+.contentWrap:nth-child(even) {
+    background: #F1F1F1;
+}
+
+.message ol {
+    text-align: left;
+    line-height: 150%;
+}
+
+#btn1{
+    background-color: #555555;
+    color: #ffffff;
+    padding: 15px 32px;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 40px
+}
+
+#colorGame {
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+#eightBall {
+    text-align: center;
+}
+
+#btn2{
+    background-color: #555555;
+    color: #ffffff;
+    padding: 15px 32px;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 40px
+}
+#footer{
+    background-color: #555555;
+    color:#ffffff;
+    padding: 40px 40px
+}
+
+#footer-email a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0px;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+#footer-email {
+    padding-left: 100px;
+    margin-top: 0;
+    display: inline-block;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+
+#leftSide {
+    float: left;
+}
+
+#rightSide {
+    float: right;
+}
+
+#thankYou {
+    margin: 0;
+    display: inline-block;
+}
